@@ -1,0 +1,300 @@
+/* css media query code here */
+
+@media ( min-width: 279px) and ( max-width: 319px){
+	/* css code start */
+	.container{
+	width: 90%;
+	margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-lg-3{
+	    width: 100%;
+	    float: left;
+	    text-align: center;
+	    margin: -15px 0px -15px 0px;
+	   }
+	.col-lg-4{
+		width: 100%;
+		float: left;
+		height: 510px;
+		margin: 0px 0px -3px -10px;
+	}
+	.col-lg-6{
+		width: 100%;
+		float: left;
+	}
+	.col-lg-9{
+		width: 100%;
+		float: left;
+	}
+	.header .navbar{
+	width: 100%;
+    text-align: left;
+	}
+	.header .navbar li a{
+    margin: 8px 0px 0px 0px;
+	}
+	.header {
+    padding: 20px 0px 5px;
+	}
+	.inner-online h1{
+	font-size: 22px;
+    line-height: 32px;
+    margin: -40px 0px 0px;
+	}
+	.inner-online p{
+    font-size: 10px;
+    line-height: 20px;	
+	}
+	.online-section .inner-online .banner-img{
+	width: 90%;
+	}
+	.inner-left h2 {
+    font-size: 35px;
+    line-height: 45px;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    }
+    .inner-left p{
+    font-size: 10px;
+    line-height: 20px;
+    text-align: left;	
+    }
+    .Successfull-section{
+    padding: 0px 0px 0px;	
+    }
+    .inner-online{
+    padding: 23px 0px 0px;
+    }
+    .project{
+    font-size: 25px;
+    line-height: 35px;
+    margin: 5px 0px 0px -1px;
+    }
+
+    .feature-seaction{
+    padding: 15px 0px 0px 0px;
+    }
+
+
+
+		/* css code end */
+	}
+
+/* low resulation device */
+@media ( min-width: 320px) and ( max-width: 480px){
+	/* css code start */
+
+	.container{
+		width: 90%;
+		margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-lg-3{
+	       width: 100%;
+	       float: left;
+	       text-align: center;
+	       margin: -18px 0px 0px 0px;
+	   }
+	.col-lg-4{
+		width: 100%;
+		float: left;
+		margin: 0px 0px 15px;
+	}
+	.col-lg-6{
+		width: 100%;
+		float: left;
+	}
+	.col-lg-9{
+		width: 100%;
+		float: left;
+	}
+
+	.header .navbar{
+		text-align: left;
+	}
+    .header .navbar li a{
+    	margin: 0px 0px 0px 11px;
+    }
+    .inner-online h1{
+    font-size: 31px;
+    line-height: 41px;
+    margin: -42px 0px 0px;
+    }
+    .inner-online p{
+    font-size: 15px;
+    line-height: 25px;
+    }
+    .online-section .inner-online .banner-img{
+    width: 90%;
+    }
+    .inner-left{
+    width: 100%;
+    text-align: revert;
+    margin: -5px 0px;
+    }
+    .inner-left p{
+    font-size: 15px;
+    line-height: 25px;	
+    }
+    .project{
+    font-size: 42px;
+    line-height: 52px;
+    margin: 5px 0px 0px 0px;
+    }
+    .Successfull-section{
+    padding: 0px 0px 10px;
+    }
+    .feature-seaction{
+    padding: 10px 0px 0px 0px;
+    }
+
+	/* css code end */
+}
+
+
+@media ( min-width: 481px) and ( max-width: 767px){
+	/* css code start */
+
+	.container{
+	width: 90%;
+	margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-lg-3{
+	    width: 100%;
+	    float: left;
+	    text-align: center;
+    }
+	.col-lg-4{
+		width: 100%;
+		float: left;
+		margin: 0px 0px 15px;
+	}
+	.col-lg-6{
+		width: 100%;
+		float: left;
+
+	}
+	.col-lg-9{
+		width: 100%;
+		float: left;
+	}
+	.header .navbar{
+		text-align: left;
+	}
+	.header .navbar li a{
+		margin: 0px 0px 0px 35px;
+	}
+	.header{
+	    padding: 15px 0px;
+	}
+	.inner-online h1{
+		font-size: 35px;
+	    line-height: 45px;
+	    margin: -30px 0px 5px;
+	}
+	.inner-online p{
+		font-size: 10px;
+        line-height: 20px;
+   		margin: 0px 0px 13px;
+	}
+	.logo img{
+		width: 40%;
+	}
+	.online-section .inner-online .banner-img{
+		width: 80%;
+	}
+	.inner-left h2{
+		font-size: 35px;
+	    line-height: 45px;
+	    margin: 0px 0px 0px 0px;
+	    text-align: left;
+
+	}
+	.inner-left p{
+	    font-size: 15px;
+        line-height: 25px;
+        margin: -8px 0px 2px -2px;
+        text-align: left;      
+	}
+	.project{
+        font-size: 35px;
+        line-height: 45px;
+        margin: 5px 0px 0px 0px;
+	}
+    .Successfull-section{
+    	padding: 0px 0px 0px;
+    }
+    .feature-seaction{
+    	padding: 23px 20px 0px;
+    }
+
+	/* css code end */
+
+}
+
+@media ( min-width: 768px) and ( max-width: 1024px){
+	/* css code start */
+
+	.container{
+	width: 90%;
+	margin: 0px auto;
+	}
+	.row{
+		width: 100%;
+		float: left;
+	}
+	.col-lg-3{
+	       width: 100%;
+	       float: left;
+	}
+	.col-lg-4{
+		width: 100%;
+		float: left;
+	}
+	.col-lg-6{
+		width: 100%;
+		float: left;
+
+	}
+	.col-lg-9{
+		width: 100%;
+		float: left;
+	}
+	.logo img{
+		width: 30%;
+	}
+	.header .navbar li a{
+		margin: 0px 10px 0px 30px;
+	}
+	.header{
+		padding: 20px 0px;
+	}
+	.inner-feature{
+		width: 57%;
+	    padding: 111px 164px;
+	    margin: 10px 10px;
+
+	}
+
+
+	/* css code end */
+
+}
+
+
+
+
+
+
+
